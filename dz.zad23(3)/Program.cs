@@ -22,7 +22,7 @@ void PrintTable(int[] Array)
     int number = 1;
     for (int i = 0; i < Array.Length; i++)
     {
-        Console.WriteLine($"{number} ^ 3 = {Array[i]}");
+        Console.WriteLine($"{number} | {Array[i]}");
         number++;
     }
 }
