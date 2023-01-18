@@ -24,7 +24,7 @@
 Console.WriteLine("Raising number 1 to power number 2");
 Console.WriteLine("Enter the first number: ");
 double num1 = Convert.ToDouble(Console.ReadLine());
-Console.WriteLine("Enter the second number: ");
+Console.WriteLine("Enter the second number, except 0: ");
 double num2 = Convert.ToDouble(Console.ReadLine());
 
 double exp = Exponentiation(num1,num2);
