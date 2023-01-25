@@ -44,6 +44,6 @@ Console.WriteLine("Enter i number: ");
 int numi = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Enter j number: ");
 int numj = Convert.ToInt32(Console.ReadLine());
-if (numi > rows || numj > columns) Console.WriteLine("Index was outside the bounds of the array");
-else Console.WriteLine(array2D[numi,numj]);
+if ((numi - 1) > rows || (numj - 1) > columns) Console.WriteLine("Index was outside the bounds of the array");
+else Console.WriteLine($"item [{numi}, {numj}] is {array2D[(numi - 1),(numj - 1)]}");
 
